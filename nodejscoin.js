@@ -51,9 +51,9 @@ class Blockchain {
     }
 }
 
-let logCoin = new Blockchain();
+let nodejscoin = new Blockchain();
 console.log("mining logcoin in progress...");
-logCoin.addNewBlock(
+nodejscoin.addNewBlock(
     new Block(1, "06/04/2022", {
         sender: "Frank Joseph",
         recipient: "LogRocket",
@@ -61,7 +61,7 @@ logCoin.addNewBlock(
     })
 );
 
-logCoin.addNewBlock(
+nodejscoin.addNewBlock(
     new Block(2, "08/08/2022", {
         sender: "Paul val",
         recipient: "Young A",
@@ -69,11 +69,11 @@ logCoin.addNewBlock(
     })
 );
 
-logCoin.addNewBlock(
+nodejscoin.addNewBlock(
     new Block(3, "13/08/2022", {
         sender: "Elena",
         recipient: "Mary",
         quantity: 34
     })
 );
-console.log(JSON.stringify(logCoin, null, 5))
+console.log(JSON.stringify(nodejscoin, null, 5))
