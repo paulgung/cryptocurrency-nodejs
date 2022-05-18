@@ -1,6 +1,7 @@
+// https://blog.logrocket.com/build-cryptocurrency-node-js-blockchain/
 const SHA256 = require("crypto-js/sha256");
 
-//create a JavaScript class to represent a Block
+// create a JavaScript class to represent a Block
 class Block {
     constructor(index, timestamp, data, previousHash) {
         this.index = index;
