@@ -1,4 +1,4 @@
-## A cryptocurrency with Node and crypto-js
+## A cryptocurrency with Node and crypto-js 
 
 #### Properties of a block
 
