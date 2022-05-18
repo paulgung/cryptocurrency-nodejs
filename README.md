@@ -1,4 +1,4 @@
-## Build a cryptocurrency with Node and crypto-js
+## A cryptocurrency with Node and crypto-js
 
 #### Properties of a block
 
@@ -13,8 +13,6 @@ The blockchain is composed of several blocks. Every block in the chain is made u
 
 #### imported the Secure Hash Algorithm (SHA256) from the crypto-js package, which helps us to encrypt our block hash ID.
 
-crypto-js: https://www.npmjs.com/package/crypto-js
-
 #### To install the dependency, run the following command in your terminal:
 
 ```bash
@@ -28,5 +26,5 @@ We’ll use a single file for this project, run the code with the following comm
 node nodejscoin
 ```
 
-See this [article](https://blog.logrocket.com/build-cryptocurrency-node-js-blockchain/) for more information.
+For a detailed explanation on how things work, check out the [guide](https://blog.logrocket.com/build-cryptocurrency-node-js-blockchain/) and [docs for crypto-js](https://www.npmjs.com/package/crypto-js).
 
